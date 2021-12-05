@@ -9,7 +9,8 @@ Also fun.
 
 | DAY                                            | A                              | B                                   |
 |:-----------------------------------------------|:-------------------------------|:------------------------------------|
-| [01](https://adventofcode.com/2021/day/1)   | [`Bash`](./01a/main.sh)        | [`PHP`](./01b/main.php)             |
+| [01](https://adventofcode.com/2021/day/1)      | [`Bash`](./01a/main.sh)        | [`PHP 8.0`](./01b/main.php)         |
+| [02](https://adventofcode.com/2021/day/2)      | [`Python 3.10`](./02a/main.py) | [`C`](./02b/main.c)                 |
 
 ## License
 
