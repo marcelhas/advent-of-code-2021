@@ -17,17 +17,17 @@ Also fun.
 
 ## Run
 
-| DAY                                        | COMMAND                                                                                                                      |
-| :----------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| [01a](https://adventofcode.com/2021/day/1) | `docker run -it --rm -v "$PWD/01a":/usr/myapp -w /usr/myapp bash:5.1 bash main.sh input.txt`                                 |
-| [01b](https://adventofcode.com/2021/day/1) | `docker run -it --rm -v "$PWD/01b":/usr/myapp -w /usr/myapp php:8.0.0-alpine php main.php input txt`                         |
-| [02a](https://adventofcode.com/2021/day/2) | `docker run -it --rm -v "$PWD/02a":/usr/myapp -w /usr/myapp python:3.10-slim python main.py input.txt`                       |
-| [02b](https://adventofcode.com/2021/day/2) | `docker run -it --rm -v "$PWD/02b":/usr/myapp -w /usr/myapp gcc:9.4 gcc main.c && ./02b/a.out 02b/input.txt && rm 02b/a.out` |
-| [03a](https://adventofcode.com/2021/day/3) | `docker run -it --rm -v "$PWD/03a":/usr/myapp -w /usr/myapp perl:5.34-slim perl main.pl input.txt`                           |
-| [03b](https://adventofcode.com/2021/day/3) | `docker run -it --rm -v "$PWD/03b":/usr/myapp -w /usr/myapp ruby:3.1.2-slim ruby main.rb input.txt`                          |
-| [04a](https://adventofcode.com/2021/day/4) | `docker run -it --rm -v "$PWD/04a":/usr/myapp -w /usr/myapp julia:1.7.2-alpine julia main.jl input.txt`                      |
-| [04b](https://adventofcode.com/2021/day/4) | `docker run -it --rm -v "$PWD/04b":/usr/myapp -w /usr/myapp golang:1.18.2 go run main.go input.txt`                          |
-| [05a](https://adventofcode.com/2021/day/5) | `docker run -it --rm -v "$PWD/05a":/usr/myapp -w /usr/myapp protocall7/zig:0.10.0 zig run main.zig -- input.txt`             |
+| DAY                                              | COMMAND                                                                                                                      |
+| :----------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| [01a](https://adventofcode.com/2021/day/1)       | `docker run -it --rm -v "$PWD/01a":/usr/myapp -w /usr/myapp bash:5.1 bash main.sh input.txt`                                 |
+| [01b](https://adventofcode.com/2021/day/1#part2) | `docker run -it --rm -v "$PWD/01b":/usr/myapp -w /usr/myapp php:8.0.0-alpine php main.php input txt`                         |
+| [02a](https://adventofcode.com/2021/day/2)       | `docker run -it --rm -v "$PWD/02a":/usr/myapp -w /usr/myapp python:3.10-slim python main.py input.txt`                       |
+| [02b](https://adventofcode.com/2021/day/2#part2) | `docker run -it --rm -v "$PWD/02b":/usr/myapp -w /usr/myapp gcc:9.4 gcc main.c && ./02b/a.out 02b/input.txt && rm 02b/a.out` |
+| [03a](https://adventofcode.com/2021/day/3)       | `docker run -it --rm -v "$PWD/03a":/usr/myapp -w /usr/myapp perl:5.34-slim perl main.pl input.txt`                           |
+| [03b](https://adventofcode.com/2021/day/3#part2) | `docker run -it --rm -v "$PWD/03b":/usr/myapp -w /usr/myapp ruby:3.1.2-slim ruby main.rb input.txt`                          |
+| [04a](https://adventofcode.com/2021/day/4)       | `docker run -it --rm -v "$PWD/04a":/usr/myapp -w /usr/myapp julia:1.7.2-alpine julia main.jl input.txt`                      |
+| [04b](https://adventofcode.com/2021/day/4#part2) | `docker run -it --rm -v "$PWD/04b":/usr/myapp -w /usr/myapp golang:1.18.2 go run main.go input.txt`                          |
+| [05a](https://adventofcode.com/2021/day/5)       | `docker run -it --rm -v "$PWD/05a":/usr/myapp -w /usr/myapp protocall7/zig:0.10.0 zig run main.zig -- input.txt`             |
 
 ## License
 
