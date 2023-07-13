@@ -7,13 +7,13 @@ Also fun.
 
 ## Overview
 
-| DAY                                       | A                              | B                             |
-| :---------------------------------------- | :----------------------------- | :---------------------------- |
-| [01](https://adventofcode.com/2021/day/1) | [`Bash`](./01a/main.sh)        | [`PHP 8.0`](./01b/main.php)   |
-| [02](https://adventofcode.com/2021/day/2) | [`Python 3.10`](./02a/main.py) | [`C`](./02b/main.c)           |
-| [03](https://adventofcode.com/2021/day/3) | [`Perl 5.34`](./03a/main.pl)   | [`Ruby 3.1.2`](./03b/main.rb) |
-| [04](https://adventofcode.com/2021/day/4) | [`Julia 1.7.2`](./04a/main.jl) | [`Go 1.18.2`](./04b/main.go)  |
-| [05](https://adventofcode.com/2021/day/5) | [`Zig 0.10.0`](./05a/main.zig) |                               |
+| DAY                                       | A                              | B                                |
+| :---------------------------------------- | :----------------------------- | :------------------------------- |
+| [01](https://adventofcode.com/2021/day/1) | [`Bash`](./01a/main.sh)        | [`PHP 8.0`](./01b/main.php)      |
+| [02](https://adventofcode.com/2021/day/2) | [`Python 3.10`](./02a/main.py) | [`C`](./02b/main.c)              |
+| [03](https://adventofcode.com/2021/day/3) | [`Perl 5.34`](./03a/main.pl)   | [`Ruby 3.1.2`](./03b/main.rb)    |
+| [04](https://adventofcode.com/2021/day/4) | [`Julia 1.7.2`](./04a/main.jl) | [`Go 1.18.2`](./04b/main.go)     |
+| [05](https://adventofcode.com/2021/day/5) | [`Zig 0.10.0`](./05a/main.zig) | [`GnuCobol 3.0`](./05b/main.cbl) |
 
 ## Run
 
@@ -28,6 +28,7 @@ Also fun.
 | [04a](https://adventofcode.com/2021/day/4)       | `docker run -it --rm -v "$PWD/04a":/usr/myapp -w /usr/myapp julia:1.7.2-alpine julia main.jl input.txt`                      |
 | [04b](https://adventofcode.com/2021/day/4#part2) | `docker run -it --rm -v "$PWD/04b":/usr/myapp -w /usr/myapp golang:1.18.2 go run main.go input.txt`                          |
 | [05a](https://adventofcode.com/2021/day/5)       | `docker run -it --rm -v "$PWD/05a":/usr/myapp -w /usr/myapp protocall7/zig:0.10.0 zig run main.zig -- input.txt`             |
+| [05b](https://adventofcode.com/2021/day/5#part2) | `docker run -it --rm -v "$PWD/05b":/usr/myapp -w /usr/myapp esolang/cobol:latest cobol main.cbl`                             |
 
 ## License
 
