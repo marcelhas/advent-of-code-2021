@@ -14,7 +14,7 @@ Also fun.
 | [03](https://adventofcode.com/2021/day/3) | [`Perl 5.34`](./03a/main.pl)       | [`Ruby 3.1.2`](./03b/main.rb)    |
 | [04](https://adventofcode.com/2021/day/4) | [`Julia 1.7.2`](./04a/main.jl)     | [`Go 1.18.2`](./04b/main.go)     |
 | [05](https://adventofcode.com/2021/day/5) | [`Zig 0.10.0`](./05a/main.zig)     | [`GnuCobol 3.0`](./05b/main.cbl) |
-| [05](https://adventofcode.com/2021/day/6) | [`Clojure 1.11.1`](./06a/main.clj) | - |
+| [06](https://adventofcode.com/2021/day/6) | [`Clojure 1.11.1`](./06a/main.clj) | - |
 
 ## Run
 
@@ -30,7 +30,7 @@ Also fun.
 | [04b](https://adventofcode.com/2021/day/4#part2) | `docker run -it --rm -v "$PWD/04b":/usr/myapp -w /usr/myapp golang:1.18.2 go run main.go input.txt`                          |
 | [05a](https://adventofcode.com/2021/day/5)       | `docker run -it --rm -v "$PWD/05a":/usr/myapp -w /usr/myapp protocall7/zig:0.10.0 zig run main.zig -- input.txt`             |
 | [05b](https://adventofcode.com/2021/day/5#part2) | `docker run -it --rm -v "$PWD/05b":/usr/myapp -w /usr/myapp esolang/cobol:latest cobol main.cbl`                             |
-| [06a](https://adventofcode.com/2021/day/6)       | `docker run -it --rm -v "$PWD/06a":/usr/myapp -w /usr/myapp clojure:temurin-17-alpine clojure -M main.clj`                             |
+| [06a](https://adventofcode.com/2021/day/6)       | `docker run -it --rm -v "$PWD/06a":/usr/myapp -w /usr/myapp clojure:temurin-17-alpine clojure -M main.clj`                   |
 
 ## License
 
