@@ -2,7 +2,7 @@
 
 My [Advent of Code 2021][aoc-2021] solutions.
 
-My goal is to improve on languages I rarely use or have not used in a long time.
+Goal is to solve each part with a new language.
 Also fun.
 
 ## Overview
