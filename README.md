@@ -2,7 +2,7 @@
 
 My [Advent of Code 2021][aoc-2021] solutions.
 
-Goal is to solve each part with a new language.
+Goal is to solve each ~~part~~ day with a new language.
 Also fun.
 
 ## Overview
@@ -15,6 +15,7 @@ Also fun.
 | [04](https://adventofcode.com/2021/day/4) | [`Julia 1.7.2`](./04a/main.jl)     | [`Go 1.18.2`](./04b/main.go)               |
 | [05](https://adventofcode.com/2021/day/5) | [`Zig 0.10.0`](./05a/main.zig)     | [`GnuCobol 3.0`](./05b/main.cbl)           |
 | [06](https://adventofcode.com/2021/day/6) | [`Clojure 1.11.1`](./06a/main.clj) | [`Gleam 1.0.0`](./06b/main/src/main.gleam) |
+| [06](https://adventofcode.com/2021/day/7) | [`Kotlin 1.9.23`](./07a/main.kt)   | [`Kotlin 1.9.23`](./07b/main.kt)           |
 
 ## Run
 
@@ -32,6 +33,8 @@ Also fun.
 | [05b](https://adventofcode.com/2021/day/5#part2) | `docker run -it --rm -v "$PWD/05b":/usr/myapp -w /usr/myapp esolang/cobol:latest cobol main.cbl`                             |
 | [06a](https://adventofcode.com/2021/day/6)       | `docker run -it --rm -v "$PWD/06a":/usr/myapp -w /usr/myapp clojure:temurin-17-alpine clojure -M main.clj`                   |
 | [06b](https://adventofcode.com/2021/day/6#part2) | `docker build -t 06b-gleam 06b && docker run --rm 06b-gleam`                                                                 |
+| [07a](https://adventofcode.com/2021/day/7)       | `docker run --rm -v "$PWD/07a":/usr/myapp -w /usr/myapp esolang/kotlin:2.4.0 kotlin main.kt`                                 |
+| [07b](https://adventofcode.com/2021/day/7#part2) | `docker run --rm -v "$PWD/07b":/usr/myapp -w /usr/myapp esolang/kotlin:2.4.0 kotlin main.kt`                                 |
 
 ## License
 
